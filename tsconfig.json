@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "lib": [
+            "ES6"
+        ],
+        "module": "CommonJS",
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true
+    },
+    "typedocOptions": {
+        "mode": "file",
+        "out": "doc",
+        "includeVersion": true,
+        "readme": "readme.md"
+    },
+    "files": [
+        "index.ts",
+        "index.test.ts"
+    ]
+}
